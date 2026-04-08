@@ -131,6 +131,23 @@ const LoginPage = () => {
           </p>
         </div>
 
+        {/* Public test credentials for quick system testing */}
+        <div className="mb-6 rounded-xl border border-green-200 bg-green-50 p-4">
+          <p className="text-sm font-semibold text-green-900 mb-2">Test Credentials</p>
+          <div className="space-y-3 text-sm text-green-900">
+            <div>
+              <p className="font-medium">Admin Account</p>
+              <p>Email: admin@gmail.com</p>
+              <p>Password: admin123</p>
+            </div>
+            <div>
+              <p className="font-medium">User Account</p>
+              <p>Email: user@example.com</p>
+              <p>Password: user123</p>
+            </div>
+          </div>
+        </div>
+
         {/* Login Form */}
         <form onSubmit={handleSubmit} className="space-y-3">
           {/* Error Message */}
