@@ -10,7 +10,6 @@ lerna-debug.log*
 node_modules
 *.local
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -19,4 +18,7 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
-.env
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
+config.bat
